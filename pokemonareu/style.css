@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #B3E065;
+}
+
+.container-background{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #E04F8A;
+}
+
+.infoPokemon h1{
+    padding: 5%;
+    text-align: center;
+}
+
+.infoPokemon h3{
+    color: white;
+    text-align: center;
+}
+
+.infoPokemon img{
+    padding: 2%;
+    display: block;
+    margin: auto;
+    width: 168px;
+}
+
+.infoPokemon p{
+    color: white;
+    text-align: center;
+}
+
+.info-stats{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.infoPokemon #heightPokemon{
+    color: white;
+    text-align: left;
+}
+
+.infoPokemon #weigthPokemon{
+    color: white;
+    text-align: right;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-btn button{
+    border: 1px solid;
+    padding: 5%;
+    border-radius: 2%;
+    background-color: #F02D26;
+    cursor: pointer;
+    margin-top: 10%;
+}
